@@ -1,2 +1,3 @@
-FROM mpepping/cyberchef:latest
-EXPOSE 8000
+FROM excalidraw/excalidraw:latest
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
